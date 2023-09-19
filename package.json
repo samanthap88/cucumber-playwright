@@ -1,0 +1,21 @@
+{
+  "name": "cucumber-and-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "e2e": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber": "^6.0.7",
+    "cucumber-expressions": "^8.3.0",
+    "cucumber-html-reporter": "^7.1.1",
+    "natural": "^6.5.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.38.0"
+  }
+}
